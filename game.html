@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div class="main">
+
+        <div class="again">
+        <input type="button" value="Again!" id="again">
+    </div>
+
+        <p id="between">[Between 1 and 20]</p>
+
+        <h1 id="guess">Guess My Number!</h1>
+        <div id="hrl"></div>
+        <div id="quest"><h1 class="number">?</h1></div>
+
+        <div class="container">
+
+        <input type="number" min="1" max="20" id="number" required>
+        <input type="submit" value="Check!" id="check">
+
+        </div>
+
+
+        <div class="container2">
+            <p id="p1">Start guessing...</p>
+            <p class="score ">💯 Score: <span class="score1">2</span> </p>
+            <p class="score ">🥇 Highscore: <span class="score2">0</span></p>
+        </div>
+
+    </div>
+
+<script>
+
+
+
+/*
+const correct = document.querySelector("#quest").textContent = (13)
+const guess = document.querySelector("#number").textContent = (13)
+
+
+   // console.log(correct)
+   // console.log(guess)
+
+    if(guess === correct) {
+        console.log("you won")
+    } else {
+        console.log("you lose")
+    }
+
+    */
+
+</script>
+
+</body>
+</html>

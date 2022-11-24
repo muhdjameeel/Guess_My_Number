@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(51, 50, 50);
+    transition: all 1s ease;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#again{
+    display: inline-block;
+    width: 7.5rem;
+    height: 4rem;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#between{
+    display: inline-block;
+    top: -10%;
+    left: calc(83% - 7px);
+    margin: 0rem;
+    color: white;
+}
+
+#guess{
+    color: white;
+    margin: auto;
+    text-align: center;
+    top: 2.5rem;
+}
+
+#hrl{
+    width: 100%;
+    border-bottom: 3px solid white;
+    top: 8rem;
+}
+#quest{
+    width: 9rem;
+    height: 8rem;
+    top: 4rem;
+    margin: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quest h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+#number{
+    -webkit-appearance: none;
+    width: 80%;
+    height: 7rem;
+    font-size: 5rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    background: transparent;
+    border: 1px solid white;
+} #number:focus{outline: none; -webkit-appearance: none;}
+#check{
+    display: inline-block;
+    width: 7rem;
+    height: 3.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: auto;
+    bottom: 2rem;
+}
+
+.container{
+    height: 17rem;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 6rem;
+    left: 13%;
+}
+
+.container2{
+    height: 17rem;
+    width: 23%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 68%;
+    bottom: 11rem;
+}
+.score{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    top: 20%;
+    color: white;
+}
